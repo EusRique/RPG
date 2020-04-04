@@ -17,8 +17,8 @@ Foi desenvolvida como estudo de Node.js e tecnologias relacionadas para aplicaç
 ## Como testar
 
 Como pré-requisitos, é necessário instalar: 
-[Node.js](https://nodejs.org/en/download/) 
-[MongoDB](https://www.mongodb.com/) aconselho utilizar Docker
+[Node.js](https://nodejs.org/en/download/) e o
+[MongoDB](https://www.mongodb.com/) aconselho utilizar Docker para o mongo
 
 Com a aplicação instalada, abra o terminal ou prompt de comando (dependendo do sistema operacional utilizado) na pasta da aplicação. Em seguida, execute os seguintes comandos, em sequência:
 

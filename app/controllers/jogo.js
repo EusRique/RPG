@@ -5,3 +5,9 @@ module.exports.jogo = function(application, req, res) {
         res.send('Usuário precisa se autenticar!!!');
     }
 }
+
+module.exports.sair = function(application, req, res) {
+    req.session.destroy(function(error){
+        res.render('index', { validacao : {}});
+    });
+}
