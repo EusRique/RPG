@@ -28,3 +28,7 @@ module.exports.cadastrar = function(application, req, res) {
 
     res.send('Cadastrado')
 }
+
+module.exports.index = function(application, req, res) {
+    res.render('index', { validacao : {} });
+}
